@@ -1,1 +1,26 @@
 #So in this project I would like you to make a Perl module to take input and output a response.
+
+#!/usr/bin/local/perl
+use strict;
+use warnings;
+
+sub main
+{
+        print "Hello, What is your name? ";
+        my $name = <STDIN>;
+        chomp $name;
+        print "$name, Please say something: ";
+        my $input = <STDIN>;
+        chomp $input;
+        if ($input eq 'Hi there') {
+        print "Hi, $name, how are you?\n";
+        my $feeling = <STDIN>;
+        print "why are you $feeling? ";
+        my $reason = <STDIN>;
+        print "Oh I see, just know everything works out in the end. \n";
+        }
+        print "good bye now.\n";
+
+}
+
+main();
