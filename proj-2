@@ -1,0 +1,4 @@
+#In this project you shall make a simliar program to project one but now you will do it using lists.
+#Specifically, I would like you to compile a list of reponses using a loop.
+# then you must write a response to the input using a list a loop to a file called proj-2-response.
+# Finally, delete every 'r' that is anywhere in the proj-2-response file. and then write every multiple of 3 up to 50
